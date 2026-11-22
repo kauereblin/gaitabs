@@ -1,0 +1,33 @@
+{
+  "name": "gaitabs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "bun test src",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "bun tests/e2e/run.ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.3",
+    "lz-string": "^1.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.15",
+    "@types/lz-string": "^1.5.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "fake-indexeddb": "^6.1.0",
+    "playwright-core": "^1.52.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
