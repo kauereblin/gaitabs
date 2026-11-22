@@ -32,7 +32,6 @@ bun run test:e2e   # Playwright E2E suite against vite preview
 
 - [docs/SPEC.md](docs/SPEC.md) — Canonical v1.1 Spec-Driven Design contract, data schema, DSP protocol, and UI rules.
 - [docs/PLAN.md](docs/PLAN.md) — Phased implementation plan and verification gates.
-- [docs/GITHUB_PAGES.md](docs/GITHUB_PAGES.md) — Step-by-step guide to deploy GaiTabs to GitHub Pages.
 - [GEMINI.md](GEMINI.md) — Repository guidelines and invariants for AI-assisted development.
 
 ## Credits & Inspirations
